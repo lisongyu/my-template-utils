@@ -38,7 +38,6 @@
   "browserslist": "> 0.25%, not dead",
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
