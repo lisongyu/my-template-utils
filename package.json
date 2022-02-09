@@ -6,11 +6,13 @@
   "scripts": {
     "build": "rollup -c ",
     "prepare": "husky install",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "push": "git add . && git-cz && git push"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
+
     },
     "cz-customizable": {
       "config": ".cz.config.js"
