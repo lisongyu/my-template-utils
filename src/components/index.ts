@@ -1,4 +1,4 @@
-import isMobile from './isMobile'
-export {
-    isMobile
-}
+import isMobile from "./isMobile"
+console.log("hah")
+
+export { isMobile }
