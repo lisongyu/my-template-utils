@@ -20,8 +20,5 @@
     "esModuleInterop": true,
     "moduleResolution": "Node",
     "resolveJsonModule": true
-  },
-  "include": [
-    "./src/Object/fullScreen.ts"
-  ]
+  }
 }
